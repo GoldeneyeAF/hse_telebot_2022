@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-TOKEN = '5757045638:AAGewVZJl0pJG4FM4WNsJB-d__5iwYCqdII'
+TOKEN = 
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(content_types=['new_chat_members'])
